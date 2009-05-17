@@ -1,9 +1,10 @@
 ---
-abstract: 'config loader like Catalyst::Plugin::ConfigLoader.'
+abstract: 'config loader like Catalyst::Plugin::ConfigLoader'
 author:
   - 'hirafoo <hirafoo@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 6.42
+  Test::Exception: 0
   Test::Synopsis: 0
   YAML::Syck: 0
 configure_requires:
@@ -21,9 +22,11 @@ no_index:
     - t
 requires:
   Config::Any: 0
+  Config::General: 0
   File::Spec: 0
+  YAML: 0
   perl: 5.8.1
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/hirafoo/Config-Divide/tree/master
-version: 0.01
+version: 0.02
