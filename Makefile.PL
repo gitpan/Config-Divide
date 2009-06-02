@@ -15,7 +15,9 @@ requires $_
     for qw/
         Config::Any
         Config::General
+        Config::Tiny
         File::Spec
+        XML::Simple
         YAML
     /;
 

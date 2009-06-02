@@ -23,10 +23,11 @@ no_index:
 requires:
   Config::Any: 0
   Config::General: 0
+  Config::Tiny: 0
   File::Spec: 0
+  XML::Simple: 0
   YAML: 0
-  perl: 5.8.1
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/hirafoo/Config-Divide/tree/master
-version: 0.02
+version: 0.03
