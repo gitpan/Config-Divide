@@ -3,11 +3,14 @@ abstract: 'config loader like Catalyst::Plugin::ConfigLoader'
 author:
   - 'hirafoo <hirafoo@cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: 0
-configure_requires:
   ExtUtils::MakeMaker: 6.42
+  Test::Exception: 0
+  Test::More: 0.98
+  Test::Synopsis: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
 dynamic_config: 0
-generated_by: 'Module::Install version 0.87, CPAN::Meta::Converter version 2.112621'
+generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112621'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,17 +18,9 @@ meta-spec:
 name: Config-Divide
 no_index:
   directory:
-    - inc
     - t
+    - inc
 requires:
   Config::Any: 0
-  ExtUtils::MakeMaker: 6.42
   File::Spec: 0
-  Test::Exception: 0
-  Test::Synopsis: 0
-  YAML: 0
-  YAML::Syck: 0
-resources:
-  license: http://dev.perl.org/licenses/
-  repository: http://github.com/hirafoo/Config-Divide/tree/master
-version: 0.03
+version: 0.034
